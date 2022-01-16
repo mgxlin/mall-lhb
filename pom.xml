@@ -57,7 +57,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.1.17.RELEASE</version>
                 <configuration>
-                    <mainClass>com.lhb.malllhb.MallLhbApplication</mainClass>
+                    <mainClass>com.lhb.mall.MallLhbApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
