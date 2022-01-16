@@ -28,3 +28,9 @@ redis:
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
+
+jwt:
+  secret: mysecret
+  expiration: 6000
+  tokenHead: Bearer
+  tokenHeader: Authorization
