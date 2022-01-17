@@ -15,9 +15,9 @@ import java.util.Map;
  */
 @Component
 public class JwtTokenUtil {
-    @Value("jwt.secret")
+    @Value("${jwt.secret}")
     private String secret;
-    @Value("jwt.expiration")
+    @Value("${jwt.expiration}")
     private Long expiration;
 
     public static final String CLAIM_KEY_USERNAME = "sub";
