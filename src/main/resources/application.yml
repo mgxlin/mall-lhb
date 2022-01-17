@@ -32,5 +32,5 @@ mybatis:
 jwt:
   secret: mysecret
   expiration: 6000
-  tokenHead: Bearer
+  tokenHead: 'Bearer '
   tokenHeader: Authorization
